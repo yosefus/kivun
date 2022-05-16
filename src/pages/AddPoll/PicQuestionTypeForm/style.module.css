@@ -1,0 +1,29 @@
+@import url('../../../styles/global.css');
+
+.type {
+  width: 150px;
+  height: 150px;
+  padding: 10px;
+  background-color: white;
+  justify-content: center;
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+}
+
+.background {
+  height: 300px;
+  width: 900px;
+  position: fixed;
+  background-color: #8080807a;
+  justify-content: center;
+  display: flex;
+  align-items: center;
+}
+
+.cards {
+  justify-content: center;
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}

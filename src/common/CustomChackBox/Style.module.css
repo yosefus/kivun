@@ -1,0 +1,72 @@
+html {
+    direction: rtl;
+}
+
+.chackboxtxt {
+    font-size: 18px;
+
+}
+
+.chackboxbtn {
+    position: relative;
+    display: inline-block;
+    width: 0px;
+    height: 0px;
+}
+
+/* Hide default HTML checkbox */
+.switch input {
+    opacity: 0;
+    width: 0;
+    height: 0;
+}
+
+/* The slider */
+.slider {
+    position: absolute;
+    cursor: pointer;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(196, 229, 241, 0.462);
+    -webkit-transition: .3s;
+    transition: .3s;
+}
+
+.slider:before {
+    position: absolute;
+    padding-top: 1px;
+    content: "";
+    height: 17px;
+    width: 18px;
+    left: 2px;
+    bottom: 1.1px;
+    background-color: #F89828
+}
+
+input:checked+.slider {
+    background-color: #6a757b70;
+}
+
+input:focus+.slider {
+    box-shadow: 0 0 1px #2196F3;
+}
+
+input:checked+.slider:before {
+    -webkit-transform: translateX(13px);
+    -ms-transform: translateX(5px);
+    transform: translateX(15px);
+}
+
+/* Rounded sliders */
+.slider.round {
+    border-radius: 34px;
+
+    height: 20px;
+    width: 36px;
+}
+
+.slider.round:before {
+    border-radius: 100%;
+}

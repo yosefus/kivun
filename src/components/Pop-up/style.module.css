@@ -1,0 +1,28 @@
+.popupMessege {
+    position: fixed;
+    background: rgba(0, 0, 0, 0.7);
+    margin: auto;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.popCard {
+    background: rgba(0, 0, 0, 0.75);
+    border-radius: 20px;
+    color: #fff;
+    width: 270px;
+    height: 90px;
+    text-align: center;
+    padding-top: 8px;
+}
+.butt{
+    padding-top: 10px;
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}

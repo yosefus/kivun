@@ -1,0 +1,27 @@
+:root {
+  --color-primary: #0b3668;
+  --color-scondery: #025fdb;
+  --color-light-blue: #f1f7ff;
+  --boxShadow: 0 2px 4px rgb(0 0 0 / 10%);
+  --color-grey: #f5f4f4;
+  --color-grey-strong: #e9e8e8;
+  --color-white: #ffffff;
+  --card-width: 700px;
+  --card-hight: 500px;
+  --mobile: 600px;
+
+  --orange: #F89828;
+  --blue-primary:#00AACD;
+  --blue-scondery: #F1F7FF;
+  --gray:#6A757B;
+
+  /*
+   you can use these global values by importing them like this:
+
+  @import url(...../styles/global.css)
+  
+  .randomClass{
+    color:var(global property);
+  }
+  */
+}

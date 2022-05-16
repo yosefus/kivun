@@ -1,0 +1,19 @@
+.InputFill {
+    background-color: white;
+    border: 1px solid #f1f7ff;
+    font-family: inherit;
+    font-size: inherit;
+    height: 100%;
+    outline: none;
+    border-radius: 35px;
+    padding-inline-end: 20px;
+    padding-inline-start: 20px;
+    position: relative;
+    width: 60%;
+    height: 35px;
+
+}
+
+.InputFill:focus{
+    box-shadow: 0 2px 4px rgb(0 0 0 / 10%), 0 8px 16px rgb(0 0 0 / 10%);
+}

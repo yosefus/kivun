@@ -1,0 +1,24 @@
+@import url('../../styles/global.css');
+
+.side {
+  padding-right: 30px;
+  min-height: 90vh;
+  width: 200px;
+  background-color: white;
+  z-index: 1;
+  display: flex;
+  flex-direction: column;
+}
+
+.side a {
+  color: #0c3058;
+  text-decoration: none;
+  font-size: 20px;
+  transition: 0.3s all ease-in-out;
+  margin: 25px 0;
+}
+
+.side a:hover {
+  color: #025fdb;
+  transform: scale(1.1);
+}

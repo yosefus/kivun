@@ -1,0 +1,26 @@
+.linear{
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-end;
+}
+.QustioneInPoll{
+    width: 400px;
+    height: 200px;
+    background-color: var(--color-grey);
+    margin: auto;
+}
+.botton{
+    border: 1px solid;
+    width: 25px;
+    height: 25px;
+    border-radius: 25%;
+    border-color: black;
+    background-color: var(--color-primary);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.answers{
+    right: 5px;
+}
+

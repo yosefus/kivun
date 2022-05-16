@@ -1,0 +1,79 @@
+@import url('../../styles/global.css');
+
+.page{
+    margin-top: 80px;
+}
+
+.board {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    margin: auto;
+    /* background-color: #00AACD; */
+    min-width: 300px;
+    max-width: 400px;
+    margin-top: 50px;
+    text-align: center;
+    position: relative;
+    min-height: 40vh;
+    box-shadow: 0 2px 4px rgb(0 0 0 / 10%), 0 8px 16px rgb(0 0 0 / 10%);
+    border-radius: 8px;
+}
+
+.onBoard {
+    margin-top: 5%;
+    margin-bottom: 5%;
+    width: 70%;
+}
+
+.onBoard form button {
+    background-color: #F89828;
+    border: none;
+    font-family: inherit;
+    font-size: inherit;
+    height: 100%;
+    outline: none;
+    border-radius: 25px;
+    padding-inline-end: 20px;
+    padding-inline-start: 20px;
+    position: relative;
+    width: 60%;
+    height: 35px;
+    box-shadow: 0 2px 4px rgb(0 0 0 / 10%), 0 8px 16px rgb(0 0 0 / 10%);
+}
+
+.onBoard form button:hover{
+    cursor: pointer;
+}
+
+.board form {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.board form input {
+    text-align: center;
+    width: 300px;
+    border: 1px solid black;
+}
+
+.switch {
+    padding: .4rem .8rem;
+    background-color: aquamarine;
+}
+
+.logo {
+    display: block;
+    margin: 0 auto;
+    height: 120px;
+}
+
+.allRights{
+    display: flex;
+    margin-top: 20px;
+    justify-content: center;
+}

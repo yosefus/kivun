@@ -1,0 +1,68 @@
+@import url('../../styles/global.css');
+
+
+.usersPage {
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+}
+
+.searchAndAddUsers {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: var(--gray);
+}
+
+.searchInput {
+    width: 40vw;
+}
+
+.table {
+    border-spacing: 0;
+    /* Removes the cell spacing via CSS */
+    border-collapse: separate;
+    /* Optional - if you don't want to have double border where cells touch */
+    border-spacing: 0 10px;
+    color: var(--gray);
+    margin-top: 40px;
+}
+
+.titleOfColumns {
+    font-size: small;
+    background-color: var(--blue-scondery);
+}
+
+.titleOfColumns>th {
+    padding-bottom: 0;
+}
+
+
+tr {
+    text-align: right;
+    background-color: white;
+}
+
+/* tr :first-child {
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+tr :last-child {
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+} */
+
+
+td, th {
+    padding: 0.8rem;
+}
+
+select {
+    border: none;
+    outline: none;
+    cursor: pointer;
+    color: var(--orange);
+    font-size: large;
+}
+

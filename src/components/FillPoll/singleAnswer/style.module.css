@@ -1,0 +1,54 @@
+@import url("../../../styles/global.css");
+
+/* .checkbox {
+    width: 4.5%;
+}
+
+.centerDiv form CustemInput {
+    width: 4.5%;
+
+} */
+
+@media screen and (max-width: var(--mobile)) {
+}
+
+.board {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    flex-direction: column;
+    align-items: center;
+    margin: auto;
+    background-color: var(--color-grey);
+    /* min-width: 300px; */
+    width: 350px;
+    max-width: 100%;
+    /* margin-top: 10%; */
+    /* margin-bottom: 10%; */
+    /* text-align: center; */
+    position: relative;
+    /* min-height: 40vh; */
+    box-shadow: 0 2px 4px rgb(0 0 0 / 10%), 0 8px 16px rgb(0 0 0 / 10%);
+    border-radius: 8px;
+}
+
+.answer {
+    margin: 10px;
+    width: 100%;
+    padding: 0 10px;
+}
+.answers {
+    margin-bottom: 15px;
+    padding: 0 10px;
+    width: 100%;
+    padding-right: 20px;
+}
+.question {
+    margin: 10px;
+    margin-top: 30px;
+}
+
+.img {
+    width: 85%;
+    margin: 15px;
+}

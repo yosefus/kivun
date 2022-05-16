@@ -1,0 +1,52 @@
+@import url('../../../styles/global.css');
+
+.questionNav {
+  background-color: #ffc078
+  ;
+  width: 300px;
+  text-align: right;
+  height: 100%;
+  position: sticky;
+  top: 0;
+  left: 0;
+}
+
+.questionList a {
+  color: #fff;
+}
+
+.questionLink {
+  padding: 3px;
+  text-decoration: none;
+  scroll-behavior: smooth;
+}
+.sticky {
+  position: sticky;
+  top: 80px;
+}
+
+.name {
+  margin: 10px;
+  font-size: 20px;
+}
+
+.style_button__IKozA {
+  display: flex;
+  justify-content: center;
+}
+
+.button {
+  display: flex;
+  justify-content: center;
+}
+
+.questions {
+  padding: 10px 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  flex-wrap: wrap;
+  gap: 10px;
+  max-height: 100%;
+}

@@ -1,0 +1,30 @@
+@import url('../../../styles/global.css');
+
+.wrapper {
+  width: var(--card-width);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 1rem;
+  gap: 10px;
+  background: var(--color-grey);
+}
+
+.mainInput {
+  width: 80%;
+}
+
+.mainInput input {
+  width: 100%;
+}
+
+.checkBox {
+  width: 80%;
+}
+
+.wrapper .btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}

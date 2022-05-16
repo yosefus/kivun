@@ -1,0 +1,51 @@
+@import url('../../../styles/global.css');
+
+.wrapper {
+  width: var(--card-width);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 1rem;
+  gap: 10px;
+  background: var(--color-grey);
+}
+
+.wrapper input {
+  width: 80%;
+}
+
+.linearQuestion {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  width: 100%;
+  min-height: 150px;
+  background-color: var(--color-grey);
+}
+
+.label {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.question {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  align-items: center;
+  margin: 3px;
+}
+
+.linearQuestion .btn {
+  width: 100%;
+  display: flex;
+}
+
+.wrapper .form input {
+  /* width: 50%; */
+  height: auto;
+  font-size: 10px;
+}
