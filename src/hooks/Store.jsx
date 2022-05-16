@@ -6,6 +6,7 @@ import { getToken } from '../functions/userApi';
 export const StoreContext = createContext()
 export const PopMessegeContext = createContext()
 
+
 // export default function Store({ children }) {
 //   const Store = useState({ user: localStorage.user|| undefined})
 //   const [Pop, Setpop] = useState()
@@ -34,5 +35,5 @@ export default function Store({ children }) {
     getToken(Store?.user?.accsesToken);
   }, [Store[0]]);
 
-  return <StoreContext.Provider value={Store}>{children}</StoreContext.Provider>;
+  return <StoreContext.Provider value={Store}> {children} </StoreContext.Provider>;
 }
